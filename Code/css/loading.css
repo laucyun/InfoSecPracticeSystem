@@ -1,0 +1,294 @@
+﻿@charset "utf-8";
+/* CSS Document */
+/*主页面加载*/
+#mainloading {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	font: 13px 'Helvetica Neue', Tahoma;
+	color: #455469;
+	background: transparent;
+	z-index:2000;
+}
+#load {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+}
+/***************************** 圈中点变化 begin **********************************/
+#circular {
+	position: absolute;
+	top:-50px;
+	left:-50px;
+	width: 100px;
+	height: 100px;
+}
+.circular {
+	background-color: #5FB7FF;
+	position: absolute;
+	width: 15px;
+	height: 15px;
+	border-radius: 100%;
+	animation-name: bounce_circular;
+	animation-duration: 2s;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+	/* Firefox: */
+    -moz-animation-name: bounce_circular;
+	-moz-animation-duration: 2s;
+	-moz-animation-iteration-count: infinite;
+	-moz-animation-direction: alternate;
+	/* Safari 和 Chrome */
+    -webkit-animation-name: bounce_circular;
+	-webkit-animation-duration: 2s;
+	-webkit-animation-iteration-count: infinite;
+	-webkit-animation-direction: linear;
+	/* Opera: */
+    -o-animation-name: bounce_circular;
+	-o-animation-duration: 2s;
+	-o-animation-iteration-count: infinite;
+	-o-animation-direction: alternate;
+}
+#circular_1 {
+	top: 42.5px;
+	left: 85px;
+	animation-delay:0s;
+	-moz-animation-delay:0s;/* Firefox: */
+	-webkit-animation-delay: 0s;/* Safari 和 Chrome */
+	-o-animation-delay:0s;/* Opera: */
+}
+#circular_2 {
+	top: 67.4808732224301px;
+	left: 76.88322226093527px;
+	animation-delay:0.2s;
+	-moz-animation-delay:0.2s;/* Firefox: */
+	-webkit-animation-delay: 0.2s;/* Safari 和 Chrome */
+	-o-animation-delay:0.2s;/* Opera: */
+}
+#circular_3 {
+	top: 82.91990194254402px;
+	left: 55.63322226093526px;
+	animation-delay:0.4s;
+	-moz-animation-delay:0.4s;/* Firefox: */
+	-webkit-animation-delay: 0.4s;/* Safari 和 Chrome */
+	-o-animation-delay:0.4s;/* Opera: */
+}
+#circular_4 {
+	top: 82.91990194254402px;
+	left: 29.366777739064737px;
+	animation-delay:0.6s;
+	-moz-animation-delay:0.6s;/* Firefox: */
+	-webkit-animation-delay: 0.6s;/* Safari 和 Chrome */
+	-o-animation-delay:0.6s;/* Opera: */
+}
+#circular_5 {
+	top: 67.48087322243012px;
+	left: 8.116777739064737px;
+	animation-delay:0.8s;
+	-moz-animation-delay:0.8s;/* Firefox: */
+	-webkit-animation-delay: 0.8s;/* Safari 和 Chrome */
+	-o-animation-delay:0.8s;/* Opera: */
+}
+#circular_6 {
+	top: 42.50000000000001px;
+	left: 0px;
+	animation-delay:1s;
+	-moz-animation-delay:1s;/* Firefox: */
+	-webkit-animation-delay: 1s;/* Safari 和 Chrome */
+	-o-animation-delay:1s;/* Opera: */
+}
+#circular_7 {
+	top: 17.519126777569895px;
+	left: 8.11677773906473px;
+	animation-delay:1.2s;
+	-moz-animation-delay:1.2s;/* Firefox: */
+	-webkit-animation-delay: 1.2s;/* Safari 和 Chrome */
+	-o-animation-delay:1.2s;/* Opera: */
+}
+#circular_8 {
+	top: 2.0800980574559773px;
+	left: 29.36677773906473px;
+	animation-delay:1.4s;
+	-moz-animation-delay:1.4s;/* Firefox: */
+	-webkit-animation-delay: 1.4s;/* Safari 和 Chrome */
+	-o-animation-delay:1.4s;/* Opera: */
+}
+#circular_9 {
+	top: 2.0800980574559773px;
+	left: 55.633222260935256px;
+	animation-delay:1.6s;
+	-moz-animation-delay:1.6s;/* Firefox: */
+	-webkit-animation-delay: 1.6s;/* Safari 和 Chrome */
+	-o-animation-delay:1.6s;/* Opera: */
+}
+#circular_10 {
+	top: 17.519126777569888px;
+	left: 76.88322226093527px;
+	animation-delay:1.8s;
+	-moz-animation-delay:1.8s;/* Firefox: */
+	-webkit-animation-delay: 1.8s;/* Safari 和 Chrome */
+	-o-animation-delay:1.8s;/* Opera: */
+}
+@keyframes bounce_circular {
+ 0% {
+ transform:scale(1);
+ -ms-transform:scale(1);/* IE 9 */
+ -webkit-transform:scale(1);/* Safari 和 Chrome */
+ -moz-transform:scale(1);/* Firefox */
+ -o-transform:scale(1);/* Opera */
+}
+ 100% {
+ transform:scale(0.5);
+ -ms-transform:scale(0.5);/* IE 9 */
+ -webkit-transform:scale(0.5);/* Safari 和 Chrome */
+ -moz-transform:scale(0.5);/* Firefox */
+ -o-transform:scale(0.5);/* Opera */;
+}
+}
+/* Firefox */
+@-moz-keyframes bounce_circular {
+ 0% {
+ transform:scale(1);
+ -ms-transform:scale(1);/* IE 9 */
+ -webkit-transform:scale(1);/* Safari 和 Chrome */
+ -moz-transform:scale(1);/* Firefox */
+ -o-transform:scale(1);/* Opera */
+}
+ 100% {
+ transform:scale(0.5);
+ -ms-transform:scale(0.5);/* IE 9 */
+ -webkit-transform:scale(0.5);/* Safari 和 Chrome */
+ -moz-transform:scale(0.5);/* Firefox */
+ -o-transform:scale(0.5);/* Opera */;
+}
+}
+/* Safari 和 Chrome */
+@-webkit-keyframes bounce_circular {
+ 0% {
+ transform:scale(1);
+ -ms-transform:scale(1);/* IE 9 */
+ -webkit-transform:scale(1);/* Safari 和 Chrome */
+ -moz-transform:scale(1);/* Firefox */
+ -o-transform:scale(1);/* Opera */
+}
+ 100% {
+ transform:scale(0.5);
+ -ms-transform:scale(0.5);/* IE 9 */
+ -webkit-transform:scale(0.5);/* Safari 和 Chrome */
+ -moz-transform:scale(0.5);/* Firefox */
+ -o-transform:scale(0.5);/* Opera */;
+}
+}
+/* Opera */
+@-o-keyframes bounce_circular {
+ 0% {
+ transform:scale(1);
+ -ms-transform:scale(1);/* IE 9 */
+ -webkit-transform:scale(1);/* Safari 和 Chrome */
+ -moz-transform:scale(1);/* Firefox */
+ -o-transform:scale(1);/* Opera */
+}
+ 100% {
+ transform:scale(0.5);
+ -ms-transform:scale(0.5);/* IE 9 */
+ -webkit-transform:scale(0.5);/* Safari 和 Chrome */
+ -moz-transform:scale(0.5);/* Firefox */
+ -o-transform:scale(0.5);/* Opera */;
+}
+}
+#circularwords {
+	position: absolute;
+	left: -50px;
+	top: -50px;
+	width: 100px;
+	height: 100px;
+	line-height: 100px;
+	text-align: center;
+	font-size: 14px;
+	color: #10ADF7;
+}
+/***************************** 圈中点变化 end **********************************/
+#samllLoading
+{
+    position: absolute;
+	top: 0;
+	bottom:0;
+	left: 0;
+	right:0;
+	width: 100%;
+	height: 100%;
+	background: transparent url(../../image/loading_blue_66.gif) 50% 50% no-repeat;
+}
+/***************************** 点绕圈运动 begin **********************************/
+#point {
+	height: 15px;
+	width: 15px;
+	position: absolute;
+	background-color: #10ADF7;
+	border-radius: 50%;
+	top: 0px;
+	left: 15px;
+}
+#ring {
+	position: absolute;
+	left: -50px;
+	top: -50px;
+	height: 100px;
+	width: 100px;
+	border: 2px solid #5FB7FF;
+	border-radius: 50%;
+	animation: ring 2s infinite;
+	-webkit-animation: ring 2s infinite;
+}
+@keyframes ring {
+ 0% {
+transform: rotate(0deg);
+}
+ 100% {
+transform: rotate(360deg);
+}
+}
+@-webkit-keyframes ring {
+ 0% {
+-webkit-transform: rotate(0deg);
+}
+ 100% {
+-webkit-transform: rotate(360deg);
+}
+}
+#ringwords {
+	position: absolute;
+	left: -50px;
+	top: -50px;
+	width: 104px;
+	height: 104px;
+	line-height: 104px;
+	text-align: center;
+	font-size: 15px;
+	color: #10ADF7;
+}
+/***************************** 点绕圈运动 end **********************************/
+/*预览图片*/
+#previewpicture {
+	position: absolute;
+	width: 280px;
+	height: 280px;
+	display: none;
+}
+#previewpicture div {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 280px;
+	height: 280px;
+	background: transparent url(../../image/loading_blue_66.gif) 50% 50% no-repeat;
+}
+#previewpicture img {
+	position: absolute;
+	right: 0;
+	max-height: 280px;
+	max-width: 280px;
+	float: right;
+}

@@ -1,0 +1,173 @@
+﻿body
+{
+    font-family: Microsoft YaHei;
+}
+#main
+{
+    left: 0;
+    top: 0;
+    position: absolute;
+    max-width: 1366px;
+    min-width: 1348px;
+    width: 100%;
+    height: 100%;
+    background: url("../../images/accounts/login_bg.jpg") no-repeat 0 0;
+    background-size: 100% 100%;
+}
+#header
+{
+    left: 50%;
+    top: 50%;
+    position: absolute;
+    width: 330px;
+    height: 100px;
+    background: url("../../image/logo.png") no-repeat 0 0;
+    margin-left: -145px;
+    margin-top: -100px;
+}
+#header a
+{
+    margin: 0;
+    width: 330px;
+    height: 100px;
+    float: left;
+}
+#foot
+{
+    height: 60px;
+    line-height: 60px;
+    width: 100%;
+    overflow: hidden;
+    color: #eee;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: 0;
+    text-shadow: 0px 1px 1px #000;
+    font-size: 14px;
+    text-align: center;
+}
+#foot a
+{
+    color:#eee;
+    font-size:14px;
+    text-decoration:none;
+}
+#foot a:hover
+{
+    text-decoration:underline;
+}
+#login
+{
+    height: 88px;
+    width: 100%;
+    color: #fff;
+    position: absolute;
+    bottom: 60px;
+    left: 0;
+    z-index: 1;
+}
+.login-inner
+{
+    line-height: 20px;
+    width: 560px;
+    height: 88px;
+    overflow: visible;
+    margin: 0 auto;
+    position: relative;
+    top: 0px;
+    text-align: center;
+    white-space: nowrap;
+}
+#login input[type="password"], input[type="text"]
+{
+    background: rgba(68, 68, 68, .6);
+    border-radius: 5px;
+    box-shadow: inset 0px 0px 8px rgba(0, 0, 0, 0.4);
+    height: 38px;
+    width: 200px;
+    z-index: 1;
+    padding-left: 15px;
+    color: #ffffff;
+    font-size: 18px;
+    outline-color: #bf0b10;
+}
+.logininput
+{
+    border: 1px solid #ddd;
+}
+.loginError
+{
+    border: 1px solid #bf0b10;
+}
+#login-help
+{
+    margin:0;
+    width: 560px;
+    height: 40px;
+    line-height:40px;
+} 
+#login-help input[type=checkbox]
+{
+    margin-left:15px;
+    margin-top:13px;
+    float:left;
+    -webkit-appearance: none;
+    display: inline-block;
+    width: 14px;
+    height: 14px;
+    cursor: pointer;
+    vertical-align: middle;
+    background: url(../../images/accounts/checkbox_login_0.png) no-repeat 0 0;
+    border: 0;
+    outline: none;
+}
+#login-help input[type=checkbox]:checked
+{
+    -webkit-appearance: none;
+    display: inline-block;
+    background: url(../../images/accounts/checkbox_login_1.png) no-repeat 0 0;
+    border: 0;
+    outline: none;
+    width: 14px;
+    height: 14px;
+}
+#login-help span
+{
+    float:left;
+    text-align:left;
+    color:#eee;
+    font-size:14px;
+}
+#login-help a
+{
+    float:left;
+    margin-left:135px;
+    text-align:left;
+    color:#eee;
+    font-size:14px;
+    text-decoration:none;
+}
+#login-help a:hover
+{
+    color:#fff;
+    text-decoration:underline;
+}
+.formSubmit
+{
+    margin-top: 0;
+    margin-left: 10px;
+    width: 80px;
+    height: 40px;
+    line-height: 38px;
+    border: 1px solid #850e11;
+    background: #bf0b10;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.formSubmit:hover
+{
+    background: #d20c12;
+}

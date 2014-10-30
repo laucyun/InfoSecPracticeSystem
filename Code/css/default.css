@@ -1,0 +1,231 @@
+﻿@charset "utf-8";
+body
+{
+    font-family:Microsoft YaHei;
+    background: url(../images/background.jpg) no-repeat center top fixed;
+    background-size: 100% 100%;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom:0;
+    position: fixed;
+    min-width:1340px;
+    height: auto;
+    margin: 0;
+    font-size:13px;
+}
+.inform
+{
+    left: 0px;
+    right: 0px;
+    top: 10px;
+    position: fixed;
+    height:40px;
+    line-height:40px;
+}
+.inform a
+{
+    margin:0;
+    margin-right:100px;
+    float:right;
+    height: 40px;
+    line-height: 40px;
+    font-size: 15px;
+    color: #999;
+    color: #fff;
+    text-decoration:none;
+}
+.inform a:hover
+{
+    color:#FF0;
+}
+.inform a i {
+    margin:0;
+    margin-top:4px;
+    float: left;
+    width: 32px;
+    height: 32px;
+    overflow: hidden;
+    border-radius: 50%;
+    box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.5);
+}
+.inform a i img {
+    margin:0;
+    width: 32px;
+    height: 32px;
+}
+.inform a span {
+    margin:0;
+    padding:0 5px 0 10px;
+    width: 40px;
+    height: 40px;
+}
+.inform a s 
+{
+    margin:0;
+    margin-top:8px;
+    float:right;
+    width: 24px;
+    height: 24px;
+    background-image: url(../images/inform-ico.png);
+    background-repeat: no-repeat;
+    background-position: 0 0;
+}
+.inform a:hover s
+{
+    background-position: 0 -24px;
+}
+.informmenu
+{
+    top: 50px; 
+    right: 94px; 
+    width: 80px; 
+    height: 135px; 
+    border: 1px solid rgb(227, 227, 227); 
+    position: fixed; 
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -border-radius: 3px;
+    background: rgb(255, 255, 255);
+    z-index:2000;
+    display:none;
+}
+.informmenu b
+{
+     margin: 0; 
+     float:left; 
+     height: 7px; 
+     margin-top: -7px; 
+     width: 100%; 
+     background: url('../images/list-top.png') no-repeat 55px -1px;
+}
+.informmenu a
+{
+    margin: 0; 
+    margin-top:4px;
+    padding-left: 0px; 
+    padding-right: 0px; 
+    padding:2px 0;
+    float:left; 
+    height:24px; 
+    line-height:24px; 
+    width:100%; 
+    color: #888;
+    text-align:center;
+}
+.informmenu a:hover
+{
+    background: #2b91e3;
+    color: #fff;
+}
+
+
+.wrapper
+{
+    left: 70px;
+    right: 70px;
+    top: 60px;
+    bottom:60px;
+    position: fixed;
+    background: rgba(255, 255, 255, 0.8);
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -border-radius: 8px;
+    z-index:-1;
+}
+.wrapper .btn
+{
+    position:absolute;
+    left: 50px;
+    right: 50px;
+    top: 20px;
+    bottom:10px;
+}
+.wrapper .btn ul {
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+    width:100%;
+    height:100%;
+}
+.wrapper .btn ul  li {
+	margin: 0;
+	float:left;
+	margin-top:36px;
+	width: 25%;
+	height:204px;
+	overflow: hidden;
+	list-style-type: none;
+}
+.wrapper .btn ul a {
+    position: relative;
+    display: block;
+    width: 128px;
+    height: 128px;
+    margin: auto;
+    border-radius: 24px;
+    background-repeat: no-repeat;
+    -webkit-transition: box-shadow 0.3s ease;
+    -moz-transition: box-shadow 0.3s ease;
+    -ms-transition: box-shadow 0.3s ease;
+}
+.btn-shunxu
+{
+    background-image: url(../images/ico/shunxu.png);
+}
+.btn-suiji
+{
+    background-image: url(../images/ico/suiji.png);
+}
+.btn-cuowu
+{
+    background-image: url(../images/ico/cuowu.png);
+}
+.btn-shoucang
+{
+    background-image: url(../images/ico/shoucang.png);
+}
+.btn-kaoshi
+{
+    background-image: url(../images/ico/kaoshi.png);
+}
+.btn-kaoshijilu
+{
+    background-image: url(../images/ico/kaoshijilu.png);
+}
+.wrapper .btn ul a span {
+    position: absolute;
+    top: 150px;
+    left: 19px;
+    width: 90px;
+    height: 24px;
+    line-height: 24px;
+    text-align: center;
+    font-size: 22px;
+    color: #444;
+}
+
+.footer
+{
+    position:fixed;
+    left: 70px;
+    right: 70px;
+    bottom:0px;
+    position: fixed;
+    height: 60px;
+    line-height: 60px;
+    color: #333;
+    font-size: 15px;
+    text-align: center;
+    z-index: 1000;
+}
+.footer a
+{
+    color: #333;
+    font-size: 15px;
+    text-decoration:none;
+}
+.footer a:hover
+{
+    text-decoration:underline;
+}

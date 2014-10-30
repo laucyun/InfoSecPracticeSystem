@@ -1,0 +1,231 @@
+﻿/* CSS Document */
+@charset "utf-8";
+@import url(main.css);/*样式*/
+.wrapper
+{
+    margin:auto;
+    width:1200px;
+}
+.timu
+{
+    position:relative;
+    top:5px;
+    left:0;
+    right:0;
+    height:350px;
+    display: inline;
+    font-size:16px;
+    font-weight:700;
+}
+.timu .broder
+{
+    padding: 10px;
+    width:1178px;
+    height:328px;
+    border: 1px solid #ddd;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -border-radius: 3px;
+}
+.timu .timucontent
+{
+    width:100%;
+    line-height:28px;
+    display: inline-block;
+}
+.timu .timucontent span
+{
+    margin:0;
+    width:1178px;
+    height:auto;
+    float:left;
+}
+.timu .timuoptions {
+    margin: 0;
+    margin-top:5px;
+    margin-left: 38px;
+    padding: 0;
+    display: inline-block;
+    width: 1040px;
+    max-width: 1040px;
+    text-align: left;
+}
+.timu .timuoptions  li {
+	margin: 0;
+	padding:15px 0 0 0;
+	overflow: hidden;
+	list-style-type: none;
+}
+.timu .select
+{
+    position:absolute;
+    bottom:0px;
+    left:0px;
+    height:40px;
+    line-height:40px;
+    width:100%;
+    font-size:18px;
+}
+.timu .select .selectdaan
+{
+    margin:0;
+    float:left;
+    width:230px;
+}
+.timu .select .rightdaan
+{
+    margin:0;
+    float:left;
+    width:180px;
+}
+.redfont
+{
+    color:Red;
+    font-weight:700;   
+}
+.timu .select .selectoptions
+{
+    margin:0;
+    float:left;
+    margin-left:15px;
+    min-width:450px;
+    max-width:450px;
+    text-align:left;
+}
+.timu .select .selectbtn
+{
+    margin:0;
+    float:right;
+    margin-right:15px;
+    min-width:300px;
+    max-width:300px;
+    text-align:right;
+}
+.timu .select .selectbtn .btnwidth
+{
+    width:80px;
+    font-size:15px;
+}
+input[type="button"] {
+    margin: 0;
+    padding: 0;
+    height: 26px;
+    width: 55px;
+    font-size:16px;
+    align-items: flex-start;
+    text-align: center;
+    cursor: pointer;
+    border: 2px outset buttonface;
+    font-family:  "新宋体","Arial";
+}
+input[type=checkbox]
+{
+    -webkit-appearance: none;
+    display: inline-block;
+    width: 14px;
+    height: 14px;
+    margin: 0;
+    margin-top: -2px;
+    margin-right:5px;
+    cursor: pointer;
+    vertical-align: middle;
+    background: url(../images/checkbox_login_0.png) no-repeat 0 0;
+    border: 0;
+    outline: none;
+}
+input[type=checkbox]:checked
+{
+    margin: 0;
+    margin-top: -2px;
+    margin-right:5px;
+    -webkit-appearance: none;
+    display: inline-block;
+    background: url(../images/checkbox_login_1.png) no-repeat 0 0;
+    border: 0;
+    outline: none;
+    width: 14px;
+    height: 14px;
+}
+.showdaan
+{
+    font-size:14px;
+    font-weight:100;
+    margin-right:10px;
+}
+
+.tihao
+{
+    position:relative;
+    top:10px;
+    width:100%;
+}
+.tihao .table1
+{
+    margin: 0;
+    white-space: normal;
+    table-layout: fixed;
+    display: table;
+    font-weight: 100;
+}
+
+.tihao .table1 tr
+{
+    display: table-row;
+}
+.tihao .table1 tr td
+{
+    margin: 0;
+    padding:0;
+    width: 44px;
+    height: 30px;
+    border: 1px solid #bbb;
+    vertical-align: top;
+}
+.tihao .table1 tr td a
+{
+    margin: 0;
+    padding:0;
+    width:100%;
+    float: left;
+    text-align: center;
+    overflow: hidden;
+    -text-overflow: ellipsis;
+    text-decoration:none;
+    color: #444;
+}
+.tihao .table1 tr td span
+{
+    margin: 0;
+    width:100%;
+    float: left;
+    text-align: center;
+    overflow: hidden;
+    -text-overflow: ellipsis;
+    font-size:12px;
+    height:15px;
+    line-height:15px;
+}
+.tihao .table1 tr td b
+{
+    margin: 0;
+    width:100%;
+    float: left;
+    text-align: left;
+    overflow: hidden;
+    -text-overflow: ellipsis;
+    font-size:12px;
+    height:15px;
+    line-height:15px;
+}
+.currentbg
+{
+    background:url(../images/currentbg.png) repeat-x 0 0;
+}
+.rightbg
+{
+    background:#66FF66;
+}
+.errorbg
+{
+    background:#FF0000;
+}

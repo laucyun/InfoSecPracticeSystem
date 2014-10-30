@@ -1,0 +1,671 @@
+﻿body
+{
+    font-family: verdana,sans-serif;
+    background: transparent;
+}
+.account
+{
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: 0;
+    float: left;
+    position: absolute;
+    
+    min-width: 1330px;
+}
+.account-head
+{
+    margin-left: 0;
+    width: 100%;
+    top: 0;
+    height: 60px;
+    background: #f2f2f2;
+    position: absolute;
+}
+.account-head-schoollogo
+{
+    float: left;
+    margin-left: 50px;
+    height: 60px;
+    line-height: 60px;
+    background: url("../../image/logo.gif") no-repeat 0 5px;
+    width: 320px;
+}
+.account-head-logo
+{
+    margin:0;
+    float: left;
+    height: 60px;
+    line-height: 60px;
+    background: url("../../image/logo.gif") no-repeat -320px 5px;
+    width: 150px;
+}
+#newStudent
+{
+    float: right;
+    margin-right: 50px;
+    height: 59px;
+    line-height: 59px;
+    width: 115px;
+    font-size: 18px;
+    text-decoration: none;
+    color: #26AB52;
+}
+#newStudent:hover
+{
+    text-decoration: underline;
+}
+.account-main
+{
+    margin: 0;
+    position: absolute;
+    top: 60px;
+    width: 100%;
+    height: 580px;
+    float: left;
+    border-top: #E0E0E0 1px solid;
+}
+.account-login-register
+{
+    margin-top: 14px;
+    margin-left: 100px;
+    margin-right: 100px;
+    height: 550px;
+    float: left;
+}
+.account-login
+{
+    margin-left: 100px;
+    float: left;
+    width: 400px;
+    height: 450px;
+    border: 1px solid #eee;
+    -webkit-border-radius: 6px; /* border-radius: 2px; */
+    -moz-box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.3);
+    -webkit-box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.3);
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.3);
+    background: #F7F7F6;
+}
+.account-login-p
+{
+    margin: 0;
+    margin-left: -2px;
+    margin-right: -2px;
+    height: 42px;
+    width: 404px;
+    -webkit-border-top-left-radius: 6px;
+    border-top-left-radius: 6px;
+    -webkit-border-top-right-radius: 6px;
+    border-top-right-radius: 6px;
+    background-color: #4d90fe;
+    background-image: -webkit-linear-gradient(top,#4d90fe,#4787ed);
+}
+.account-login-p-span
+{
+    margin: 0;
+    height: 42px;
+    line-height: 42px;
+    float: left;
+    color: #fff;
+    padding-left: 20px;
+    font-family: Microsoft YaHei;
+}
+.account-login-image
+{
+    margin: 0;
+    height: 113px;
+    width: 400px;
+    margin-top: 17px;
+}
+.account-login-image-img
+{
+    width: 96px;
+    height: 96px;
+    display: block;
+    margin: auto;
+    vertical-align: middle;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+}
+.account-login-card
+{
+    margin: 0 40px 0 40px;
+    width: 320px;
+    height: 280px;
+}
+.account-login-card-label
+{
+    margin: 0;
+    color: #222;
+    font-weight: bold;
+    height: 32px;
+    width: 320px;
+    line-height: 32px;
+    font-size: 13px;
+    padding-left: 3px;
+}
+.account-login-card-input
+{
+    margin: 0;
+    color: #404040;
+    height: 42px;
+    width: 320px;
+    line-height: 42px;
+    -webkit-appearance: none;
+    appearance: none;
+    display: inline-block;
+    padding: 0 8px;
+    background: #fff;
+    border: 1px solid #c0c0c0;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    -moz-border-radius: 1px;
+    -webkit-border-radius: 1px;
+    border-radius: 1px;
+    font-size: 15px;
+    color: #404040;
+    vertical-align: middle;
+}
+.account-login-card-input-error
+{
+    margin: 0;
+    color: #404040;
+    height: 42px;
+    width: 320px;
+    line-height: 42px;
+    -webkit-appearance: none;
+    appearance: none;
+    display: inline-block;
+    padding: 0 8px;
+    background: #fff;
+    border: 1px solid #dd4b39;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    -moz-border-radius: 1px;
+    -webkit-border-radius: 1px;
+    border-radius: 1px;
+    font-size: 15px;
+    color: #404040;
+    vertical-align: middle;
+}
+.account-login-card-span-error
+{
+    margin: 0;
+    color: #dd4b39;
+    height: 32px;
+    width: 320px;
+    line-height: 32px;
+    font-size: 13px;
+    padding-left: 3px;
+}
+.account-login-button-sumbit
+{
+    margin: 0;
+    color: #fff;
+    height: 36px;
+    width: 320px;
+    line-height: 36px;
+    font-size: 14px;
+    font-weight: 700;
+    border: 1px solid #3079ed;
+    text-shadow: 0 1px rgba(0,0,0,0.1);
+    background-color: #4d90fe;
+    background-image: -webkit-linear-gradient(top,#4d90fe,#4787ed);
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+}
+.account-login-button-sumbit:hover
+{
+    border: 1px solid #2f5bb7;
+    color: #fefefe;
+    text-shadow: 0 1px rgba(0,0,0,0.3);
+    background-color: #357ae8;
+    background-image: -webkit-linear-gradient(top,#4d90fe,#357ae8);
+    background-image: -moz-linear-gradient(top,#4d90fe,#357ae8);
+    background-image: -ms-linear-gradient(top,#4d90fe,#357ae8);
+    background-image: -o-linear-gradient(top,#4d90fe,#357ae8);
+    background-image: linear-gradient(top,#4d90fe,#357ae8);
+}
+.account-login-remember
+{
+    margin: 0;
+    width: 320px;
+    height: 18px;
+    line-height: 18px;
+    font-size: 12px;
+}
+input[type=checkbox]
+{
+    -webkit-appearance: none;
+    display: inline-block;
+    width: 14px;
+    height: 14px;
+    margin: 0;
+    margin-top: -2px;
+    cursor: pointer;
+    vertical-align: middle;
+    background: url(../../images/accounts/checkbox_login_0.png) no-repeat 0 0;
+    border: 0;
+    outline: none;
+}
+input[type=checkbox]:checked
+{
+    margin: 0;
+    margin-top: -2px;
+    -webkit-appearance: none;
+    display: inline-block;
+    background: url(../../images/accounts/checkbox_login_1.png) no-repeat 0 0;
+    border: 0;
+    outline: none;
+    width: 14px;
+    height: 14px;
+}
+input[type=checkbox]:hover
+{
+    border-color: #c6c6c6;
+    -moz-box-shadow: inset 0 1px 2px rgba(0,0,0,0.1);
+    -webkit-box-shadow: inset 0 1px 2px rgba(0,0,0,0.1);
+    box-shadow: inset 0 1px 2px rgba(0,0,0,0.1);
+}
+.remember .bubble-wrap
+{
+    position: absolute;
+    padding-top: 3px;
+    -o-transition: opacity .218s ease-in .218s;
+    -moz-transition: opacity .218s ease-in .218s;
+    -webkit-transition: opacity .218s ease-in .218s;
+    transition: opacity .218s ease-in .218s;
+    left: -999em;
+    opacity: 0;
+    width: 314px;
+    margin-left: -20px;
+}
+.remember:hover .bubble-wrap, .remember input:focus .bubble-wrap, .remember .bubble-wrap:hover, .remember .bubble-wrap:focus
+{
+    opacity: 1;
+    left: inherit;
+}
+.bubble-pointer
+{
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 10px solid #fff;
+    width: 0;
+    height: 0;
+    margin-left: 17px;
+}
+.bubble
+{
+    background-color: #fff;
+    padding: 15px;
+    margin-top: -1px;
+    font-size: 11px;
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+    border-radius: 2px;
+    -moz-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+    -webkit-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+}
+.dasher-tooltip
+{
+    position: absolute;
+    left: 50%;
+    top: 380px;
+    margin-left: 150px;
+}
+.dasher-tooltip .tooltip-pointer
+{
+    margin-top: 15px;
+}
+.dasher-tooltip p
+{
+    margin-top: 0;
+}
+.dasher-tooltip p span
+{
+    display: block;
+}
+a:hover
+{
+    text-decoration: underline;
+}
+a, a:hover, a:visited
+{
+    color: #427fed;
+    cursor: pointer;
+    text-decoration: none;
+}
+a, a:hover, a:visited
+{
+    color: #427fed;
+    cursor: pointer;
+    text-decoration: none;
+}
+.need-help-reverse
+{
+    float: right;
+    margin: 0;
+    font-size: 12px;
+}
+.need-help-reverse:hover
+{
+    text-decoration: underline;
+}
+a, a:hover, a:visited
+{
+    color: #427fed;
+    cursor: pointer;
+    text-decoration: none;
+}
+user agent stylesheeta:-webkit-any-link
+{
+    color: -webkit-link;
+    text-decoration: underline;
+    cursor: auto;
+}
+.account-register
+{
+    margin-left: 50px;
+    float: left;
+    width: 520px;
+    height: 550px;
+    border: 1px solid #eee;
+    -webkit-border-radius: 6px; /* border-radius: 2px; */
+    -moz-box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.3);
+    -webkit-box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.3);
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.3);
+    background: #F7F7F6;
+}
+.account-register-p
+{
+    margin: 0;
+    margin-left: -2px;
+    margin-right: -2px;
+    height: 42px;
+    width: 524px;
+    -webkit-border-top-left-radius: 6px;
+    border-top-left-radius: 6px;
+    -webkit-border-top-right-radius: 6px;
+    border-top-right-radius: 6px;
+    background-color: #00a600;
+    background-image: -webkit-linear-gradient(top,#00a600,#00a600);
+}
+.account-register-p-span
+{
+    margin: 0;
+    height: 42px;
+    line-height: 42px;
+    float: left;
+    color: #fff;
+    padding-left: 20px;
+    font-family: Microsoft YaHei;
+}
+.account-register-card
+{
+    margin-left: 10px;
+    width: 495px;
+    float: left;
+}
+.account-register-card-label
+{
+    margin: 0;
+    color: #222;
+    font-weight: bold;
+    height: 26px;
+    width: 495px;
+    line-height: 26px;
+    font-size: 13px;
+    padding-left: 3px;
+}
+.account-register-card-input
+{
+    margin: 0;
+    color: #404040;
+    height: 32px;
+    width: 495px;
+    line-height: 32px;
+    -webkit-appearance: none;
+    appearance: none;
+    display: inline-block;
+    padding: 0 8px;
+    background: #fff;
+    border: 1px solid #c0c0c0;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    -moz-border-radius: 1px;
+    -webkit-border-radius: 1px;
+    border-radius: 1px;
+    font-size: 13px;
+    color: #404040;
+    vertical-align: middle;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    float: left;
+}
+.account-register-span
+{
+    margin: 0;
+    height: 14px;
+    line-height: 14px;
+    padding-left: 8px;
+    padding-right: 8px;
+    color: #888;
+    font-size: 12px;
+    float: left;
+}
+.account-register-span-error
+{
+    margin: 0;
+    height: 14px;
+    line-height: 14px;
+    padding-left: 8px;
+    padding-right: 8px;
+    color: #C00;
+    font-size: 12px;
+    float: left;
+}
+.account-register-error
+{
+    background: url("../../images/accounts/glb.png") no-repeat -42px -2px;
+    margin: 0;
+    height: 14px;
+    width: 14px;
+    float: left;
+}
+.account-register-span-right
+{
+    margin: 0;
+    height: 14px;
+    line-height: 14px;
+    padding-left: 8px;
+    padding-right: 8px;
+    color: #3D882D;
+    font-size: 12px;
+    float: left;
+}
+.account-register-right
+{
+    background: url("../../images/accounts/glb.png") no-repeat -6px -2px;
+    margin: 0;
+    height: 14px;
+    width: 14px;
+    float: left;
+}
+.account-register-agree-span
+{
+    color: #888;
+    font-size: 12px;
+}
+em
+{
+    width: 106px;
+    height: 14px;
+    vertical-align: top;
+    font-size: 12px;
+}
+em i
+{
+    text-align: center;
+    height: 14px;
+    line-height: 14px;
+    display: inline-block;
+    font-style: normal;
+    color: #fff;
+    vertical-align: top;
+}
+em i.w1
+{
+    width: 26px;
+    background: url(../../images/accounts/password_safe.png) no-repeat 0 -18px;
+}
+em i.w2
+{
+    width: 54px;
+    background: url(../../images/accounts/password_safe.png) no-repeat 0 -32px;
+}
+em i.w3
+{
+    width: 78px;
+    background: url(../../images/accounts/password_safe.png) no-repeat 0 -46px;
+}
+em i.w4
+{
+    width: 106px;
+    background: url(../../images/accounts/password_safe.png) no-repeat 0 -60px;
+}
+#imgOK
+{
+    margin: 0;
+    float: left;
+    height: 40px;
+    line-height: 40px;
+    margin-top: -5px;
+    margin-left: 5px;
+}
+#codeImg
+{
+    font-size: 12px;
+    height: 40px;
+    line-height: 40px;
+    margin: 0;
+    float: left;
+    margin-left: 5px;
+    margin-top: -5px;
+}
+#codeImg:hover
+{
+    text-decoration: underline;
+}
+.account-register-button-sumbit
+{
+    margin: 0;
+    color: #fff;
+    height: 36px;
+    width: 495px;
+    line-height: 36px;
+    vertical-align: middle;
+    font-size: 14px;
+    font-weight: 700;
+    border: 1px solid #51a351;
+    text-shadow: 0 1px rgba(0,0,0,0.1);
+    background-color: #5bb75b;
+    background-image: -webkit-linear-gradient(top, #62c462, #51a351));
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+}
+.account-register-button-sumbit:hover
+{
+    border: 1px solid #51a351;
+    color: #fefefe;
+    text-shadow: 0 1px rgba(0,0,0,0.3);
+    background-color: #51a351;
+}
+.registeragree:hover
+{
+    text-decoration: underline;
+}
+.account-foot
+{
+    top: 640px;
+    width: 100%;
+    height: 39px;
+    position: absolute;
+    font-size: 13px;
+    color: #555;
+    background: #f2f2f2;
+    border-top: #E0E0E0 1px solid;
+    border-bottom: #E0E0E0 1px solid;
+    font-family: Microsoft YaHei;
+}
+.account-foot-left
+{
+    text-align: left;
+    height: 40px;
+    line-height: 40px;
+    float: left;
+    margin-left: 100px;
+}
+.account-foot-right
+{
+    text-align: right;
+    height: 40px;
+    line-height: 40px;
+    float: right;
+    margin-right: 100px;
+}
+
+
+.SelectMenu
+{
+    top: 268px;
+    left: 665px;
+    position: absolute;
+    width: 495px;
+    z-index: 100;
+    background-color: #fff;
+    scrollbar-face-color: #FFFFFF;
+    scrollbar-shadow-color: #D2E5F4;
+    scrollbar-highlight-color: #D2E5F4;
+    scrollbar-3dlight-color: #FFFFFF;
+    scrollbar-darkshadow-color: #FFFFFF;
+    scrollbar-track-color: #FFFFFF;
+    scrollbar-arrow-color: #D2E5F4;
+}
+.SelectMenu ul
+{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    border-left: 1px solid #bbb;
+    border-right: 1px solid #bbb;
+    border-bottom: 1px solid #bbb;
+    width: 495px;
+}
+.SelectMenu li
+{
+    list-style: none;
+    font-size: 12px;
+    border-bottom: 1px solid #eee;
+    height: 25px;
+    line-height: 25px;
+    padding: 0 0 0 5px;
+}
+.SelectMenu li:hover
+{
+    list-style: none;
+    font-size: 12px;
+    border-bottom: 1px solid #eee;
+    height: 25px;
+    line-height: 25px;
+    padding: 0 0 0 5px;
+    background-color: #ccc;
+    cursor: pointer;
+}
+

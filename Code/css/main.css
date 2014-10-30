@@ -1,0 +1,17 @@
+﻿@charset "utf-8";
+body
+{
+    font-family:  "新宋体","Arial";
+    /*background:url(../images/bg.jpg) 0 -250px repeat-x;*/
+    background:white;
+    left: 0;
+    right: 0;
+    top: 0;
+    position: absolute;
+    width: 100%;
+    min-width:1280px;
+    height: auto;
+    margin: 0;
+    font-size:13px;
+    color:Black;
+}
