@@ -1,7 +1,7 @@
-江西省信息安全大赛
-------------------
+说明
+----
 
-比赛形式：
+信息安全竞赛形式：
   * 网络预选赛：各参赛队伍在规定时间内登录指定的网站，以在线答题方式进行，比赛题型分为判断题、单选题和多选题。
   * 现场技能赛：以网络对抗、网络通关竞赛形式进行，采取包括攻防、对抗、突破内容的实战演练题目，可能涉及到注入、缓冲区溢出、嗅探、跨站、破解、加解密、信息隐藏等常用计算机对抗攻防手段。
  
@@ -36,7 +36,7 @@
 
 ```C#
 <connectionStrings>
-	<add name="ConnectionString" connectionString="Data Source=.;Initial Catalog=InformationSecurity;Persist Security Info=True;User ID=~~数据库用户名~~;Password=~~数据库密码~~" providerName="System.Data.SqlClient" />
+	<add name="ConnectionString" connectionString="Data Source=.;Initial Catalog=InformationSecurity;Persist Security Info=True;User ID=数据库用户名;Password=数据库密码" providerName="System.Data.SqlClient" />
 </connectionStrings>
 ```
 
