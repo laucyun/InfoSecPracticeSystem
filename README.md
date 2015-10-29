@@ -43,25 +43,25 @@
 ### 部署网站
   * 1、控制面板 -> 程序和功能 -> 打开或关闭windows功能（左边） -> Internet信息服务。选中如下：
 
-    ![安装IIS](https://github.com/liuker0x007/InfoSecPracticeSystem/blob/master/README/01.png)
+    ![安装IIS](README/01.png)
 
   * 2、更改系统默认平台（默认是`.NET2.0`，要更改为`.NET4.0`）。
 
-    ![更改系统默认平台](https://github.com/liuker0x007/InfoSecPracticeSystem/blob/master/README/02.png)
+    ![更改系统默认平台](README/02.png)
 
   * 3、控制面板 -> 管理工具 -> Internet信息服务（IIS）管理器 -> 添加网站（JX3Report）。默认端口号设为80。
   
-    ![部署网站](https://github.com/liuker0x007/InfoSecPracticeSystem/blob/master/README/03.png)
+    ![部署网站](README/03.png)
 
   * 4、应用程序池 -> 添加应用程序池。
   
-    ![修改应用程序池](https://github.com/liuker0x007/InfoSecPracticeSystem/blob/master/README/04.png)
-    ![修改应用程序池](https://github.com/liuker0x007/InfoSecPracticeSystem/blob/master/README/05.png)
+    ![修改应用程序池](README/04.png)
+    ![修改应用程序池](README/05.png)
 
   * 5、点击“默认文档”，设置网站的默认文档。
   
-    ![设置网站的默认文档](https://github.com/liuker0x007/InfoSecPracticeSystem/blob/master/README/06.png)
-    ![设置网站的默认文档](https://github.com/liuker0x007/InfoSecPracticeSystem/blob/master/README/07.png)
+    ![设置网站的默认文档](README/06.png)
+    ![设置网站的默认文档](README/07.png)
 
 
 ### 域名配置
