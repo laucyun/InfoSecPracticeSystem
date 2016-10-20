@@ -74,5 +74,5 @@ string domain = "http://域名:端口号";   //eg.http://www.liuker.xyz，如果
 联系方式
 --------
 
-  * E-mail：lzq@liuker.xyz
+  * E-mail：lt@liuker.xyz
   * QQ：2523417411
